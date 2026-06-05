@@ -6,6 +6,7 @@ namespace CyberSecurityChatbot
     internal class Chatbot
     {
         private User _user;
+        // Dictionary storing multiple tips per cybersecurity topic
         private Dictionary<string, List<string>> _responses;
         private Dictionary<string, string[]> _sentimentResponses;
         private Random _random;
