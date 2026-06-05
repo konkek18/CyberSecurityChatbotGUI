@@ -46,6 +46,7 @@ namespace CyberSecurityChatbot
             rtxtChat.AppendText($"Bot: Welcome {_user.Name}! I'm your cybersecurity awareness bot. Ask me about passwords, phishing, scams, privacy, or 2FA.\n\n");
         }
 
+        // Custom dark themes for cyber look
         private void InitializeComponent()
         {
             this.txtInput = new TextBox();
