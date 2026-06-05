@@ -1,4 +1,5 @@
-﻿using System;
+﻿// Entry point - launches WinForms GUI for cybersecurity chatbot
+using System;
 using System.Windows.Forms;
 
 namespace CyberSecurityChatbot
