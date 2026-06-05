@@ -8,6 +8,7 @@ namespace CyberSecurityChatbot
     {
         public void PlayGreeting()
         {
+          // Load and play the greeting WAV file from project folder 
             try
             {
                 string path = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Greeting.wav");
